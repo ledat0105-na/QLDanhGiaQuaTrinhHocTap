@@ -22,15 +22,6 @@ gradle bootRun
 ```
 
 Mở http://localhost:8080. Trong IntelliJ IDEA có thể mở `server/build.gradle` dưới dạng Gradle project nhưng cần giữ nguyên thư mục `client` bên cạnh `server`. Để bổ sung Gradle Wrapper, chạy `gradle wrapper --gradle-version 8.14.3` từ `server`, sau đó dùng `gradlew.bat bootRun` trên Windows hoặc `./gradlew bootRun` trên macOS/Linux.
-
-## Đưa lên GitHub
-
-Nhóm trưởng tạo repo Public trống, mở terminal tại thư mục chứa README:
-
-```sh
-git init -b main
-git add .
-git commit -m "Khoi tao MVC Spring Boot va phan cong nhom"
 git remote add origin https://github.com/TAI_KHOAN/quan-ly-thuc-tap-mvc.git
 git push -u origin main
 ```
