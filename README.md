@@ -25,5 +25,3 @@ Mở http://localhost:8080. Trong IntelliJ IDEA có thể mở `server/build.gra
 git remote add origin https://github.com/TAI_KHOAN/quan-ly-thuc-tap-mvc.git
 git push -u origin main
 ```
-
-Thay URL bằng repo thật. Mời ba thành viên vào repo. Mỗi người tạo nhánh được giao, tự commit và mở Pull Request vào `main`. Không đưa mật khẩu, dữ liệu sinh viên thật hoặc tệp cấu hình bí mật lên repo Public.
